@@ -16,11 +16,12 @@ Operating System:
 
 Packages:
 * ![arp-scan](https://linux.die.net/man/1/arp-scan)
+* ![macchanger](https://github.com/alobbs/macchanger)
 
 Python Library (Pip3):
-![os](https://docs.python.org/3/library/os.html)
-![getmac](https://pypi.org/project/getmac/) >= 0.8.1
-![platform](https://docs.python.org/3/library/platform.html)
+* ![os](https://docs.python.org/3/library/os.html)
+* ![getmac](https://pypi.org/project/getmac/) >= 0.8.1
+* ![platform](https://docs.python.org/3/library/platform.html)
 
 ### Screenshot
 
