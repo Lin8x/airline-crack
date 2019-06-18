@@ -1,5 +1,5 @@
 
-# ![plane image](http://i67.tinypic.com/huekv8.jpg)
+# ![logo name](http://i67.tinypic.com/huekv8.jpg)
 
 ------------------------------------------------------------------------
 
@@ -56,9 +56,9 @@ Simply type `airline-crack` in your terminal to run the program.
 
 ##### Setup Information
 
-During setup for Linux users, the python program will go into the directory: `/usr/share/airline-crack`
+During setup for Linux users, the python program _(core.py and airlinecrack.py)_ will go into the directory: `/usr/share/airline-crack`
 
-As for the bash program that will allow for running the program with the command 'airline-crack' will go to the directory: `/usr/bin`
+As for the bash program, that will allow for running the program with the command 'airline-crack', will go to the directory: `/usr/bin`
 
 This however does not work for Mac OS users as the `/usr/bin/` and `/usr/share` ***is not*** accessable even with sudo.
 This is because Macs limit the power of the root account, so that even if you become root, you don't have full control over the system.
