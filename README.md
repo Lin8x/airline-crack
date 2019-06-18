@@ -60,7 +60,8 @@ During setup for Linux users, the python program will go into the directory: `/u
 
 As for the bash program that will allow for running the program with the command 'airline-crack' will go to the directory: `/usr/bin`
 
-This however does not work for Mac OS users as the /usr/bin/ and /usr/share is not accessable even with sudo.
+This however does not work for Mac OS users as the `/usr/bin/` and `/usr/share` ***is not*** accessable even with sudo.
+This is because Macs limit the power of the root account, so that even if you become root, you don't have full control over the system.
 
 ------------------------------------------------------------------------
 
