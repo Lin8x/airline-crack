@@ -19,13 +19,46 @@ Packages:
 * ![macchanger](https://github.com/alobbs/macchanger)
 
 Python Library (Pip3):
+* python3
+* pip3
 * ![os](https://docs.python.org/3/library/os.html)
 * ![getmac](https://pypi.org/project/getmac/) >= 0.8.1
 * ![platform](https://docs.python.org/3/library/platform.html)
 
+### How to Install
+
+You can install the program by:
+
+**1. Downloading the file on the Github page**
+
+Or by...
+
+**2. Typing in your terminal - `git clone https://www.github.com/lin8x/airline-crack`**
+
+*Once finished installing, please type `sudo python3 setup.py` to setup your program.*
+
+### How to Run
+
+***For Mac OS X:***
+
+Open the directory to the file: 'airline-crack' and run the program by typing: 
+`sudo python3 airlinecrack.py`
+
+***For Linux:***
+
+Simply type `airline-crack` in your terminal to run the program.
+
+##### Setup Information
+
+During setup for Linux users, the python program will go into the directory: `/usr/share/airline-crack`
+
+As for the bash program that will allow for running the program with the command 'airline-crack' will go to the directory: `/usr/bin`
+
+This however does not work for Mac OS users as the /usr/bin/ and 
+
 ### Screenshot
 
-
+![screenshot of tool](link here)
 
 ------------------------------------------------------------------------
 
