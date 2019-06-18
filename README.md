@@ -10,7 +10,7 @@ The idea behind this is to help you obtain free airplane wifi.
 
 ------------------------------------------------------------------------
 
-## Requirements
+## :unlock: &nbsp; Requirements &nbsp; :unlock:
 
 Operating System:
 * Mac OS X
@@ -29,7 +29,7 @@ Python Library (Pip3):
 
 ------------------------------------------------------------------------
 
-## How to Install
+## :inbox_tray: &nbsp; How to Install &nbsp; :inbox_tray:
 
 You can install the program by:
 
@@ -43,7 +43,7 @@ Or by...
 
 ------------------------------------------------------------------------
 
-## How to Run
+## :fire: &nbsp; How to Run &nbsp; :fire:
 
 ***For Mac OS X:***
 
