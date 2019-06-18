@@ -1,0 +1,5 @@
+#!/bin/bash
+
+clear
+
+Python3 /usr/share/airline-crack/airlinecrack.py
