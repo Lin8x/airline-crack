@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------------------
 
-***--- Want to support me? ---*** <br><br>
+### ***--- Want to support me? ---*** <br><br>
 ***1. Make a pull-request for anything you think should be improved in this markdown file.***
 * **Fix any grammar for this markdown file**. There must be at least a couple of grammar mistakes or things that should be updated in here, so feel free to make a pull request for any of them. 
 * **Add any images or visuals** you think I should add for this markdown file.
