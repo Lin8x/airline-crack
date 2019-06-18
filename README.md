@@ -3,12 +3,12 @@
 
 ------------------------------------------------------------------------
 
-# About Aircrack &nbsp;
+## About Aircrack &nbsp;
 
 This is a small tool which allows for easy accessability to spoofing your MAC Address.
 The idea behind this is to help you obtain free airplane wifi.
 
-### Requirements
+## Requirements
 
 Operating System:
 * Mac OS X
@@ -25,7 +25,7 @@ Python Library (Pip3):
 * ![getmac](https://pypi.org/project/getmac/) >= 0.8.1
 * ![platform](https://docs.python.org/3/library/platform.html)
 
-### How to Install
+## How to Install
 
 You can install the program by:
 
@@ -37,7 +37,7 @@ Or by...
 
 *Once finished installing, please type `sudo python3 setup.py` to setup your program.*
 
-### How to Run
+## How to Run
 
 ***For Mac OS X:***
 
@@ -56,7 +56,7 @@ As for the bash program that will allow for running the program with the command
 
 This however does not work for Mac OS users as the /usr/bin/ and 
 
-### Screenshot
+## Screenshot
 
 ![screenshot of tool](link here)
 
