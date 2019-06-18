@@ -5,12 +5,8 @@
 
 ## :airplane: &nbsp; About Aircrack &nbsp; :airplane:
 
-<p align="center">
-
 This is a small tool which allows for easy accessability to spoofing your MAC Address.
 The idea behind this is to help you obtain free airplane wifi.
-
-<p>
   
 ------------------------------------------------------------------------
 
@@ -75,5 +71,8 @@ This is because Macs limit the power of the root account, so that even if you be
 
 ------------------------------------------------------------------------
 
+# License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 
