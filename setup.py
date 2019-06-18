@@ -25,7 +25,10 @@ if "Linux" == p:
   try:
     os.system("sudo apt-get install macchanger")
     os.system("sudo apt-get install arp-scan")
-    os.system("pip3 install getmac")
+    os.system("sudo apt-get install ipcalc")
+    os.system("sudo pip3 install getmac")
+    os.system("sudo pip3 install scapy")
+    os.system("sudo pip3 install lanscan")
     filesetup()
     print("")
     print("You have finished the setup. Please type 'python3 airlinecrack.py' to run the tool.")
@@ -42,7 +45,10 @@ elif "Darwin" == p:
   try:
     os.system("brew install macchanger")
     os.system("brew install arp-scan")
-    os.system("pip3 install getmac")
+    os.system("brew install ipcalc")
+    os.system("sudo pip3 install getmac")
+    os.system("sudo pip3 install scapy")
+    os.system("sudo pip3 install lanscan")
     print("")
     print("You have finished the setup. Please type 'python3 airlinecrack.py' to run the tool.")
     print("If you are using Linux, there is a bash file in /usr/bin, so you just have to type 'airline-crack' to run it.")
