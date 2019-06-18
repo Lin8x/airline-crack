@@ -7,6 +7,8 @@
 
 This is a small tool which allows for easy accessability to spoofing your MAC Address and scanning IP addresses.
 The idea behind this is to help you obtain free airplane wifi.
+
+Authors and contibutors are not responsible for whatever you do with this tool. You are responsible for your own actions!
   
 ------------------------------------------------------------------------
 
