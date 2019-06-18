@@ -70,7 +70,7 @@ This is because Macs limit the power of the root account, so that even if you be
 
 ## :camera: &nbsp; Screenshot &nbsp; :camera:
 
-![screenshot of tool](http://i68.tinypic.com/rwlz4o.png)
+![screenshot of tool](http://i63.tinypic.com/sdjsjm.png)
 
 ------------------------------------------------------------------------
 
