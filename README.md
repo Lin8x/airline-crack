@@ -78,12 +78,14 @@ This is because Macs limit the power of the root account, so that even if you be
 
 Please read ![CONTRIBUTING.md](https://github.com/Lin8x/airline-crack/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
+You can see ![CHANGESLOG.md](https://github.com/Lin8x/airline-crack/blob/master/CHANGESLOG.md) for details of changes to the tool for each update.
+
 See also the list of contributors who participated in this project.
 
 ------------------------------------------------------------------------
 
 ## :page_with_curl: &nbsp; License &nbsp; :page_with_curl:
 
-This project is licensed under the GNU General Public License (v3.0) - see the ![LICENSE.md](https://github.com/Lin8x/airline-crack/blob/master/LICENSE) file for details
+This project is licensed under the GNU General Public License (v3.0) - see the ![LICENSE.md](https://github.com/Lin8x/airline-crack/blob/master/LICENSE) file for details.
 
 ------------------------------------------------------------------------
