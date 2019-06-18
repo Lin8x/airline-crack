@@ -5,7 +5,7 @@
 
 ## :airplane: &nbsp; About Aircrack &nbsp; :airplane:
 
-This is a small tool which allows for easy accessability to spoofing your MAC Address.
+This is a small tool which allows for easy accessability to spoofing your MAC Address and scanning IP addresses.
 The idea behind this is to help you obtain free airplane wifi.
   
 ------------------------------------------------------------------------
@@ -19,6 +19,7 @@ Operating System:
 Packages:
 * ![arp-scan](https://linux.die.net/man/1/arp-scan)
 * ![macchanger](https://github.com/alobbs/macchanger)
+* ![ipcalc](https://linux.die.net/man/1/ipcalc)
 
 Python Library (Pip3):
 * python3
@@ -26,6 +27,8 @@ Python Library (Pip3):
 * ![os](https://docs.python.org/3/library/os.html)
 * ![getmac](https://pypi.org/project/getmac/) >= 0.8.1
 * ![platform](https://docs.python.org/3/library/platform.html)
+* ![scapy](https://pypi.org/project/scapy-python3/)
+* ![lanscan](https://pypi.org/project/lanscan/)
 
 ------------------------------------------------------------------------
 
