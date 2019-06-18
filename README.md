@@ -71,16 +71,15 @@ This is because Macs limit the power of the root account, so that even if you be
 
 ------------------------------------------------------------------------
 
-## Contributing
+## :star2: &nbsp; Contributing &nbsp; :star2:
 
 Please read ![CONTRIBUTING.md](https://github.com/Lin8x/airline-crack/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 See also the list of contributors who participated in this project.
 
-
 ------------------------------------------------------------------------
 
-## License
+## :page_with_curl: &nbsp; License &nbsp; :page_with_curl:
 
 This project is licensed under the GNU General Public License (v3.0) - see the ![LICENSE.md](https://github.com/Lin8x/airline-crack/blob/master/LICENSE) file for details
 
