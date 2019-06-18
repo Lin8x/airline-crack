@@ -9,9 +9,10 @@ This is a small tool which allows for easy accessability to spoofing your MAC Ad
 The idea behind this is to help you obtain free airplane wifi.
 
 ------------------------------------------------------------------------
-<p align="center">
 
 ## :unlock: &nbsp; Requirements &nbsp; :unlock:
+
+<p align="center">
 
 Operating System:
 * Mac OS X
@@ -27,6 +28,8 @@ Python Library (Pip3):
 * ![os](https://docs.python.org/3/library/os.html)
 * ![getmac](https://pypi.org/project/getmac/) >= 0.8.1
 * ![platform](https://docs.python.org/3/library/platform.html)
+
+</p>
 
 ------------------------------------------------------------------------
 
@@ -70,7 +73,6 @@ This is because Macs limit the power of the root account, so that even if you be
 
 ![screenshot of tool](link here)
 
-</p>
 ------------------------------------------------------------------------
 
 
