@@ -3,10 +3,12 @@
 
 ------------------------------------------------------------------------
 
-# About Aircrack &nbsp;
+## About Aircrack &nbsp;
 
 This is a small tool which allows for easy accessability to spoofing your MAC Address.
 The idea behind this is to help you obtain free airplane wifi.
+
+------------------------------------------------------------------------
 
 ## Requirements
 
@@ -25,6 +27,8 @@ Python Library (Pip3):
 * ![getmac](https://pypi.org/project/getmac/) >= 0.8.1
 * ![platform](https://docs.python.org/3/library/platform.html)
 
+------------------------------------------------------------------------
+
 ## How to Install
 
 You can install the program by:
@@ -36,6 +40,8 @@ Or by...
 **2. Typing in your terminal - `git clone https://www.github.com/lin8x/airline-crack`**
 
 *Once finished installing, please type `sudo python3 setup.py` to setup your program.*
+
+------------------------------------------------------------------------
 
 ## How to Run
 
@@ -55,6 +61,8 @@ During setup for Linux users, the python program will go into the directory: `/u
 As for the bash program that will allow for running the program with the command 'airline-crack' will go to the directory: `/usr/bin`
 
 This however does not work for Mac OS users as the /usr/bin/ and 
+
+------------------------------------------------------------------------
 
 ## Screenshot
 
