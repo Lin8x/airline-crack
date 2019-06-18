@@ -3,6 +3,7 @@
 import os
 import core
 import getmac
+import lanscan
 
 r = core.r
 p = core.pink
@@ -24,6 +25,8 @@ def start():
         print("--------------------- \n")
         os.system("ifconfig")
         print("\n--------------------- \n")
+        os.system("lanscan interfaces")
+        print("\n--------------------- \n")
         answer = input("Please type your wireless adapter's name (Default: wlan0): ")
         if answer == "":
             mon = "wlan0"
@@ -42,9 +45,14 @@ def startup(mon):
   print("Your original mac address: " + str(mac_id))
   os.system("macchanger -s " + mon)
   print("")
-  print(r + "(" + lc + "1" + r + ")" + "  Scan MAC-Addresses/Devices on Network")
-  print(r + "(" + lc + "2" + r + ")" + "  Become a specific MAC address")
-  print(r + "(" + lc + "3" + r + ")" + "  Become a random MAC address")
+  print(bo + "Scanning:" + r)
+  print(r + "(" + lc + "1" + r + ")" + "  Scan IPs and MAC-Addresses/Devices on Network")
+  print(r + "(" + lc + "2" + r + ")" + "  Scan an IP Address (Nmap)")
+  print(r + "(" + lc + "3" + r + ")" + "  Scan an IP Address (Ipcalc)")
+  print(bo + "MAC Address:" + r)
+  print(r + "(" + lc + "4" + r + ")" + "  Become a specific MAC address")
+  print(r + "(" + lc + "5" + r + ")" + "  Become a random MAC address")
+  print(bo + "Extra:" + r)
   print(r + "(" + lc + "r" + r + ")" + "  Reload/Clear the screen")
   print(r + "(" + lc + "99" + r + ")" + " Exit the tool (CNTRL + C) \n")
 
@@ -66,13 +74,49 @@ def startup(mon):
               startup(mon)
       elif answer == "2":
           print("")
+          IP = input("Please type a specific IP Address: ")
+          print("")
+          os.system("sudo nmap -A " + IP)
+          print("")
+          save = input("Would you like to save these outputs? (Default = No): ")
+          if save == "y" or save == "yes" or save == "Y" or save == "Yes" or save == "YES":
+              savename = input("What would you like to call the file? (default: nmap-xxx.xxx.x.x): ")
+              if savename == "":
+                  savename = "nmap-" + IP
+              os.system("sudo nmap -A " + IP + " > " + savename + ".log")
+              print("")
+              input("Your output was saved in " + savename + ".log")
+              startup(mon)
+          else:
+              input("\nAlright, your output was not saved.")
+              startup(mon)
+      elif answer == "3":
+          print("")
+          IP = input("Please type a specific IP Address: ")
+          print("")
+          os.system("ipcalc " + IP)
+          print("")
+          save = input("Would you like to save these outputs? (Default = No): ")
+          if save == "y" or save == "yes" or save == "Y" or save == "Yes" or save == "YES":
+              savename = input("What would you like to call the file? (default: ipcalc-xxx.xxx.x.x): ")
+              if savename == "":
+                  savename = "ipcalc-" + IP
+              os.system("sudo nmap -A " + IP + " > " + savename + ".log")
+              print("")
+              input("Your output was saved in " + savename + ".log")
+              startup(mon)
+          else:
+              input("\nAlright, your output was not saved.")
+              startup(mon)
+      elif answer == "4":
+          print("")
           macspoof = input("Please type a specific Mac Address: ")
           print("")
           os.system("macchanger -m " + macspoof + " " + mon)
           print("")
           input("Finished! Please press {ENTER} to continue...")
           startup(mon)
-      elif answer == "3":
+      elif answer == "5":
           print("")
           macspoof = os.system("macchanger -r " + mon)
           print("")
