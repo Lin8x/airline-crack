@@ -71,35 +71,17 @@ This is because Macs limit the power of the root account, so that even if you be
 
 ------------------------------------------------------------------------
 
-Built With
+## Contributing
 
-    Dropwizard - The web framework used
-    Maven - Dependency Management
-    ROME - Used to generate RSS Feeds
-
-Contributing
-
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-Versioning
-
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-Authors
-
-    Billie Thompson - Initial work - PurpleBooth
+Please read ![CONTRIBUTING.md](https://github.com/Lin8x/airline-crack/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 See also the list of contributors who participated in this project.
-License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
-Acknowledgments
-
-    Hat tip to anyone whose code was used
-    Inspiration
-    etc
 
 
-# License
+------------------------------------------------------------------------
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+## License
 
+This project is licensed under the GNU General Public License (v3.0) - see the ![LICENSE.md](https://github.com/Lin8x/airline-crack/blob/master/LICENSE) file for details
 
+------------------------------------------------------------------------
