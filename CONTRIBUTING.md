@@ -8,8 +8,8 @@
 ***1. Make a pull-request for anything you think should be improved in this markdown file.***
 * **Fix any grammar for this markdown file**. There must be at least a couple of grammar mistakes or things that should be updated in here, so feel free to make a pull request for any of them. 
 * **Add any images or visuals** you think I should add for this markdown file.
-* **Add any improvement for descriptions** of terminologies. I am NOT a master at networking and just did a couple of searches for each terminology. Feel free to let me know or fix any problems or errors in what I said.
-* **Add any structural setups** for terminologies! There has to be *some* better setups for major parts of this markdown file. (ex: You think that the description of the RAT should be after the Network Terminoligies? Why? How can I improve it? Let me know!)
+* **Add any improvement for descriptions** of terminologies. Feel free to let me know or fix any problems or errors in what I said.
+* **Add any structural setups** for terminologies! There has to be *some* better setups for major parts of this markdown file. (ex: You think that the description of the tool/project should be after the installation/setup section? Why? How can I improve it? Let me know!)
 
 ***2. Make a pull-request of anything you think should be improved in the code.***
 * **Fix any of my code performance**. There can be an easier way of performing my code, let me know what I should change or fix to make it perform better!
