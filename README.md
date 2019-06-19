@@ -15,8 +15,8 @@ Authors and contibutors are not responsible for whatever you do with this tool. 
 ## :unlock: &nbsp; Requirements &nbsp; :unlock:
 
 Operating System:
-* Mac OS X
-* Linux (Debian/Ubuntu Based)
+* ![Mac OS X](www.apple.com)
+* Linux (Debian/Ubuntu Based: Preferably ![Kali Linux](www.kali.org))
 
 Packages:
 * ![arp-scan](https://linux.die.net/man/1/arp-scan)
