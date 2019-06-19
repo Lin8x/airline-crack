@@ -21,6 +21,7 @@ Operating System:
 Packages:
 * ![arp-scan](https://linux.die.net/man/1/arp-scan)
 * ![macchanger](https://github.com/alobbs/macchanger)
+* ![nmap](https://nmap.org/)
 * ![ipcalc](https://linux.die.net/man/1/ipcalc)
 * ![aircrack-ng](https://www.aircrack-ng.org/)
 * ![tcpdump](https://www.tcpdump.org/)
