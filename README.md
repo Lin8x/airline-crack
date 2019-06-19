@@ -22,6 +22,8 @@ Packages:
 * ![arp-scan](https://linux.die.net/man/1/arp-scan)
 * ![macchanger](https://github.com/alobbs/macchanger)
 * ![ipcalc](https://linux.die.net/man/1/ipcalc)
+* ![aircrack-ng](https://www.aircrack-ng.org/)
+* ![tcpdump](https://www.tcpdump.org/)
 
 Python Library (Pip3):
 * python3
@@ -72,7 +74,7 @@ This is because Macs limit the power of the root account, so that even if you be
 
 ## :camera: &nbsp; Screenshot &nbsp; :camera:
 
-![screenshot of tool](http://i63.tinypic.com/sdjsjm.png)
+![screenshot of tool](http://i64.tinypic.com/335e1pv.png)
 
 ------------------------------------------------------------------------
 
