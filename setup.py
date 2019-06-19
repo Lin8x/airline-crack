@@ -23,9 +23,11 @@ def filesetup():
 p = platform.system()
 if "Linux" == p:
   try:
-    os.system("sudo apt-get install macchanger")
-    os.system("sudo apt-get install arp-scan")
-    os.system("sudo apt-get install ipcalc")
+    os.system("sudo apt-get install -y macchanger")
+    os.system("sudo apt-get install -y arp-scan")
+    os.system("sudo apt-get install -y ipcalc")
+    os.system("sudo apt-get install -y aircrack-ng")
+    os.system("sudo apt-get install -y tcpdump")
     os.system("sudo pip3 install getmac")
     os.system("sudo pip3 install scapy")
     os.system("sudo pip3 install lanscan")
@@ -46,6 +48,8 @@ elif "Darwin" == p:
     os.system("brew install macchanger")
     os.system("brew install arp-scan")
     os.system("brew install ipcalc")
+    os.system("brew install aircrack-ng")
+    os.system("brew install tcpdump")
     os.system("sudo pip3 install getmac")
     os.system("sudo pip3 install scapy")
     os.system("sudo pip3 install lanscan")
