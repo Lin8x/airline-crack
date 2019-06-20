@@ -8,8 +8,11 @@
 This is a small tool which allows for easy accessability to spoofing your MAC Address and scanning IP addresses.
 The idea behind this is to help you obtain free airplane wifi.
 
-Authors and contibutors are not responsible for whatever you do with this tool. You are responsible for your own actions!
-  
+![screenshot of tool](http://i64.tinypic.com/335e1pv.png)
+
+Authors and contibutors are not responsible for whatever you do with this tool. <br>
+You are responsible for your own actions!
+
 ------------------------------------------------------------------------
 
 ## :unlock: &nbsp; Requirements &nbsp; :unlock:
@@ -70,12 +73,6 @@ As for the bash program, that will allow for running the program with the comman
 
 This however does not work for Mac OS users as the `/usr/bin/` and `/usr/share` ***is not*** accessable even with sudo.
 This is because Macs limit the power of the root account, so that even if you become root, you don't have full control over the system.
-
-------------------------------------------------------------------------
-
-## :camera: &nbsp; Screenshot &nbsp; :camera:
-
-![screenshot of tool](http://i64.tinypic.com/335e1pv.png)
 
 ------------------------------------------------------------------------
 
